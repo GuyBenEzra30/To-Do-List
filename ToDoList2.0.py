@@ -10,7 +10,7 @@ def add_task():
     elif task.isdigit():
         messagebox.showwarning("Input Error", "Task must be a string, not a number!")
     elif not task.isalnum():
-        messagebox.showwarning("Input Error", "Task must be a string, not a special character!")
+        messagebox.showwarning("Input Error", "Task must be a string, not signs!")
     else:
         Tasks.append(task)
         update_task_list()
@@ -64,7 +64,6 @@ def Exit():
                 exit()
             else:
                 root.destroy()
-
 
 root = tk.Tk()
 root.title("To-Do List Application")
