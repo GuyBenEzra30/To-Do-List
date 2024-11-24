@@ -47,6 +47,12 @@ def save_tasks(): #5
         for task in Tasks:
             file.write(task + "\n")
         print("Tasks saved successfully!")
+
+def Exit(): #6
+    save_tasks()
+    print("Exiting...")
+    exit()
+
         
 
 print("Welcome to your to-do list application!")
@@ -56,6 +62,7 @@ print('2. View tasks')
 print('3. Mark task as completed')
 print('4. Delete task')
 print('5. Save tasks')
+print('6. Exit')
 
 
 while True:
@@ -70,5 +77,7 @@ while True:
         delete_task()
     elif choice == '5':
         save_tasks()
+    elif choice == '6':
+        Exit()
     else:
         print("Invalid choice. Please choose a valid option.")
