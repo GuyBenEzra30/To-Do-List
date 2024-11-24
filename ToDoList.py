@@ -1,10 +1,3 @@
-
-# Add a task to the list.
-# View all tasks.
-# Mark tasks as completed.
-# Delete tasks.
-# We'll store the tasks in a text file to save them between sessions.
-
 Tasks = []
 def add_task(): #1
     task = input("Enter a task: ")
