@@ -1,16 +1,17 @@
-# To-Do-List # Python
+This project allows the user to create and save a To-Do list by selecting the tasks they want to achieve.
+After running the program, you’ll be presented with several options. Everything is explained and is very easy to use.
 
-This project allows the user to create and save To-Do list as he chooses the tasks he wants to acheive.
-After running the code, you'll receive few options. Everything is explained and very easy to use. 
+The options are:
 
-The options: 
-1. Add Task.
-2. View Tasks.
-3. Mark Completed Tasks.
-4. Delete Task.
-5. Save the list as a txt file on your computer.
+Add Task
+View Tasks
+Mark Completed Tasks
+Delete Task
+Save the list as a .txt file on your computer
 
-The project is still in development I'm searching for new ways to improve my code, if anyone has any suggestions I'll be more than happy to listen :) 
+The project is still in development, and I’m always looking for ways to improve the code. If anyone has suggestions, I’d be more than happy to hear them! :)
 
+In version 2.0, I created a desktop application with the same basic principles as version 1. However, instead of running in the terminal, the code now opens a desktop application using Tkinter.
+Basic yet effective.
 
-Enjoy :)
+Enjoy! :)
